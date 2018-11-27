@@ -11,7 +11,7 @@ Lastly we will fix some code that needs to be refactored due to the packages upd
 
 We need to update `System.Identity.Token.Jwt`. This will fix the secure app connection.
 
-![token](./images/token.png)
+![token](https://github.com/ParadoxARG/ParadoxARG-Operation-Max_Ex5-Fix/blob/master/Images/token.png)
 
 Next we need to install `Autofac.WebApi2`
 
@@ -19,7 +19,7 @@ Next we need to install `Autofac.WebApi2`
 
 Finally we have to install `Microsoft.Bot.Builder.Azure v 3.16`
 
-![azure](./images/azure.png)
+![azure](https://github.com/ParadoxARG/ParadoxARG-Operation-Max_Ex5-Fix/blob/master/Images/azure.png)
 
 ## Configure CosmosDB
 
