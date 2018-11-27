@@ -15,7 +15,7 @@ We need to update `System.Identity.Token.Jwt`. This will fix the secure app conn
 
 Next we need to install `Autofac.WebApi2`
 
-![autofac](.images/autofac.png)
+![autofac](https://github.com/ParadoxARG/ParadoxARG-Operation-Max_Ex5-Fix/blob/master/Images/autofac.png)
 
 Finally we have to install `Microsoft.Bot.Builder.Azure v 3.16`
 
