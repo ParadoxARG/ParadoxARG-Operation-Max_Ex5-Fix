@@ -29,7 +29,7 @@ Follow the instructions [here](https://chatbotslife.com/managing-state-and-loggi
 
 Open RootDialog.CS and modify the category and severity retrieval with the following lines:
 
-	```CSharp
+	```cs
     try
 		{
 			this.category = (string)((List<object>)categoryEntityRecommendation.Resolution["values"])[0];
