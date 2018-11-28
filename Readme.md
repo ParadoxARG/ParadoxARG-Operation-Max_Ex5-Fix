@@ -30,16 +30,16 @@ Follow the instructions [here](https://chatbotslife.com/managing-state-and-loggi
 Open RootDialog.CS and modify the category and severity retrieval with the following lines:
 
 	```cs
-    try
-		{
-			this.category = (string)((List<object>)categoryEntityRecommendation.Resolution["values"])[0];
-		}
-	catch { }
-	try
-		{
-			this.severity = (string)((List<object>)severityEntityRecommendation.Resolution["values"])[0];
-		}
-	catch { }
+		try
+			{
+				this.category = (string)((List<object>)categoryEntityRecommendation.Resolution["values"])[0];
+			}
+		catch { }
+		try
+			{
+				this.severity = (string)((List<object>)severityEntityRecommendation.Resolution["values"])[0];
+			}
+		catch { }
     ```
 	
 ## Special Note
